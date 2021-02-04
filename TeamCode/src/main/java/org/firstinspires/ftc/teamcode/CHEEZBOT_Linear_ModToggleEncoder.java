@@ -10,7 +10,7 @@ import com.qualcomm.robotcore.util.Range;
 
 //This is a system where the triggers control the speed of the bot. For example, if you have the left stick at full forward and the left trigger half pressed in, you get half power.
 @SuppressWarnings("FieldCanBeLocal")
-@TeleOp(name="SkyBot Op Mode - Linear Speed Toggling ENCODERS!",group="Linear")
+@TeleOp(name="CHEEZBOT Op Mode - Linear Speed Toggling ENCODERS!",group="Linear")
 //@Disabled
 public class CHEEZBOT_Linear_ModToggleEncoder extends LinearOpMode {
 
