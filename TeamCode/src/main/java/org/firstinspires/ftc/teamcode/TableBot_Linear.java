@@ -10,7 +10,7 @@ import com.qualcomm.robotcore.util.Range;
 
 @SuppressWarnings("FieldCanBeLocal")
 @TeleOp(name="TableBot Op Mode - Linear",group="Linear")
-@Disabled
+//@Disabled
 public class TableBot_Linear extends LinearOpMode {
     // Declare OpMode members.
     private ElapsedTime runtime = new ElapsedTime();
@@ -86,6 +86,7 @@ public class TableBot_Linear extends LinearOpMode {
 
             // Show the elapsed game time and wheel power.
             telemetry.addData("Status", "Run Time: " + runtime.toString());
+            telemetry.addData("TestThings","leftPower: (%.2f), rightPower: (%.2f), strafe:(%.2f)",leftPower,rightPower,strafe);
             telemetry.addData("Motors", "left (%.2f), right (%.2f)", leftPower, rightPower);
             telemetry.addData("Motors", "left (%.2f), right (%.2f)", leftPower, rightPower);
             telemetry.update();
